@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from 'aws-cdk-lib';
+
+import * as lambda from 'aws-cdk-lib/aws-lambda';
+
 import { CdaAwsCdkServerlessStack } from '../lib/cda-aws-cdk-serverless-stack';
 
 const app = new cdk.App();
